@@ -1,6 +1,6 @@
 namespace: raphaelmorsch
 name: linux_ops
-version: 1.0.0
+version: 1.0.1
 readme: README.md
 authors:
 - Raphael Morsch
