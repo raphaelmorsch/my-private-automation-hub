@@ -1,0 +1,7 @@
+---
+web_stack_nginx_package: nginx
+web_stack_nginx_service: nginx
+web_stack_server_name: localhost
+web_stack_document_root: /usr/share/nginx/html
+web_stack_index_title: Managed by Ansible
+

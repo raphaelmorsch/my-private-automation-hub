@@ -1,0 +1,17 @@
+#cloud-config
+users:
+  - name: {{ cloud_ops_cloud_init_user }}
+    groups: wheel
+    sudo: ALL=(ALL) NOPASSWD:ALL
+    shell: /bin/bash
+{% if cloud_ops_cloud_init_authorized_keys | length > 0 %}
+    ssh_authorized_keys:
+{% for key in cloud_ops_cloud_init_authorized_keys %}
+      - {{ key }}
+{% endfor %}
+{% endif %}
+packages:
+{% for package in cloud_ops_cloud_init_packages %}
+  - {{ package }}
+{% endfor %}
+

@@ -1,0 +1,8 @@
+---
+linux_ops_baseline_packages:
+  - vim
+  - curl
+  - tar
+
+linux_ops_baseline_services: []
+

@@ -1,0 +1,12 @@
+---
+galaxy_info:
+  author: Raphael Morsch
+  description: Render cloud-init user-data files.
+  license: MIT
+  min_ansible_version: "2.15"
+  platforms:
+    - name: EL
+      versions:
+        - "8"
+        - "9"
+dependencies: []

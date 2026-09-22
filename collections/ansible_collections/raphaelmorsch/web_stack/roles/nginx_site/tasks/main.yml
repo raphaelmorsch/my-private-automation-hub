@@ -1,0 +1,28 @@
+---
+- name: Install Nginx
+  ansible.builtin.package:
+    name: "{{ web_stack_nginx_package }}"
+    state: present
+
+- name: Ensure document root exists
+  ansible.builtin.file:
+    path: "{{ web_stack_document_root }}"
+    state: directory
+    owner: root
+    group: root
+    mode: "0755"
+
+- name: Deploy index page
+  ansible.builtin.template:
+    src: index.html.j2
+    dest: "{{ web_stack_document_root }}/index.html"
+    owner: root
+    group: root
+    mode: "0644"
+
+- name: Enable Nginx service
+  ansible.builtin.service:
+    name: "{{ web_stack_nginx_service }}"
+    enabled: true
+    state: started
+

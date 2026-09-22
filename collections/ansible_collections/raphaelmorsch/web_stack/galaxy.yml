@@ -1,0 +1,22 @@
+namespace: raphaelmorsch
+name: web_stack
+version: 1.0.0
+readme: README.md
+authors:
+- Raphael Morsch
+description: Web stack automation roles for Nginx based services.
+license:
+- MIT
+tags:
+- web
+- nginx
+- http
+- services
+dependencies: {}
+repository: https://github.com/raphaelmorsch/my-private-automation-hub
+documentation: https://github.com/raphaelmorsch/my-private-automation-hub
+homepage: https://github.com/raphaelmorsch/my-private-automation-hub
+issues: https://github.com/raphaelmorsch/my-private-automation-hub/issues
+build_ignore:
+- .gitignore
+- dist

@@ -1,0 +1,21 @@
+namespace: raphaelmorsch
+name: cloud_ops
+version: 1.0.0
+readme: README.md
+authors:
+- Raphael Morsch
+description: Cloud operations helpers for provisioning data and bootstrap files.
+license:
+- MIT
+tags:
+- cloud
+- bootstrap
+- cloud_init
+dependencies: {}
+repository: https://github.com/raphaelmorsch/my-private-automation-hub
+documentation: https://github.com/raphaelmorsch/my-private-automation-hub
+homepage: https://github.com/raphaelmorsch/my-private-automation-hub
+issues: https://github.com/raphaelmorsch/my-private-automation-hub/issues
+build_ignore:
+- .gitignore
+- dist

@@ -1,0 +1,14 @@
+---
+- name: Install baseline packages
+  ansible.builtin.package:
+    name: "{{ linux_ops_baseline_packages }}"
+    state: present
+  when: linux_ops_baseline_packages | length > 0
+
+- name: Enable baseline services
+  ansible.builtin.service:
+    name: "{{ item }}"
+    enabled: true
+    state: started
+  loop: "{{ linux_ops_baseline_services }}"
+

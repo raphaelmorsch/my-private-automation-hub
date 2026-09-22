@@ -1,0 +1,12 @@
+---
+- name: Configure Controller project
+  awx.awx.project:
+    name: "{{ aap_platform_project_name }}"
+    description: "{{ aap_platform_project_description }}"
+    organization: "{{ aap_platform_project_organization }}"
+    scm_type: "{{ aap_platform_project_scm_type }}"
+    scm_url: "{{ aap_platform_project_scm_url }}"
+    scm_branch: "{{ aap_platform_project_scm_branch }}"
+    update_project: "{{ aap_platform_project_update_on_launch }}"
+    state: "{{ aap_platform_project_state }}"
+

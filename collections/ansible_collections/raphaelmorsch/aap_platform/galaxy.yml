@@ -1,0 +1,23 @@
+namespace: raphaelmorsch
+name: aap_platform
+version: 1.0.0
+readme: README.md
+authors:
+- Raphael Morsch
+description: Red Hat AAP Controller automation helpers.
+license:
+- MIT
+tags:
+- aap
+- controller
+- automation
+- platform
+dependencies:
+  awx.awx: ">=24.0.0"
+repository: https://github.com/raphaelmorsch/my-private-automation-hub
+documentation: https://github.com/raphaelmorsch/my-private-automation-hub
+homepage: https://github.com/raphaelmorsch/my-private-automation-hub
+issues: https://github.com/raphaelmorsch/my-private-automation-hub/issues
+build_ignore:
+- .gitignore
+- dist

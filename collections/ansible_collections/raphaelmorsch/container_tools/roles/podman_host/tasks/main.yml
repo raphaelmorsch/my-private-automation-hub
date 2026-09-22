@@ -1,0 +1,14 @@
+---
+- name: Install Podman toolchain
+  ansible.builtin.package:
+    name: "{{ container_tools_podman_packages }}"
+    state: present
+
+- name: Ensure containers config directory exists
+  ansible.builtin.file:
+    path: /etc/containers
+    state: directory
+    owner: root
+    group: root
+    mode: "0755"
+

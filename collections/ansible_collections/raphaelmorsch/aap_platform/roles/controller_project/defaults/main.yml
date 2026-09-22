@@ -1,0 +1,10 @@
+---
+aap_platform_project_name: My Private Automation Hub Content
+aap_platform_project_description: Collections and playbooks managed by Ansible.
+aap_platform_project_organization: Default
+aap_platform_project_scm_type: git
+aap_platform_project_scm_url: https://github.com/raphaelmorsch/my-private-automation-hub.git
+aap_platform_project_scm_branch: main
+aap_platform_project_update_on_launch: true
+aap_platform_project_state: present
+

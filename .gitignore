@@ -1,0 +1,6 @@
+.ansible/
+dist/
+*.tar.gz
+*.pyc
+__pycache__/
+

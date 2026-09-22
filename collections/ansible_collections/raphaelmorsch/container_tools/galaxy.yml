@@ -1,0 +1,21 @@
+namespace: raphaelmorsch
+name: container_tools
+version: 1.0.0
+readme: README.md
+authors:
+- Raphael Morsch
+description: Container host automation focused on Podman tooling.
+license:
+- MIT
+tags:
+- containers
+- podman
+- automation
+dependencies: {}
+repository: https://github.com/raphaelmorsch/my-private-automation-hub
+documentation: https://github.com/raphaelmorsch/my-private-automation-hub
+homepage: https://github.com/raphaelmorsch/my-private-automation-hub
+issues: https://github.com/raphaelmorsch/my-private-automation-hub/issues
+build_ignore:
+- .gitignore
+- dist

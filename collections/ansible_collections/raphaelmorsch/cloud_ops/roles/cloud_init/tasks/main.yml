@@ -1,0 +1,8 @@
+---
+- name: Render cloud-init user data
+  ansible.builtin.template:
+    src: user-data.yml.j2
+    dest: "{{ cloud_ops_cloud_init_output }}"
+    mode: "0600"
+  delegate_to: localhost
+

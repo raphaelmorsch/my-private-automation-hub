@@ -1,0 +1,22 @@
+namespace: raphaelmorsch
+name: linux_ops
+version: 1.0.0
+readme: README.md
+authors:
+- Raphael Morsch
+description: Linux operations roles and playbook building blocks for baseline host configuration.
+license:
+- MIT
+tags:
+- linux
+- operations
+- baseline
+- hardening
+dependencies: {}
+repository: https://github.com/raphaelmorsch/my-private-automation-hub
+documentation: https://github.com/raphaelmorsch/my-private-automation-hub
+homepage: https://github.com/raphaelmorsch/my-private-automation-hub
+issues: https://github.com/raphaelmorsch/my-private-automation-hub/issues
+build_ignore:
+- .gitignore
+- dist

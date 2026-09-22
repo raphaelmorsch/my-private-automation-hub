@@ -1,0 +1,8 @@
+---
+cloud_ops_cloud_init_output: ./user-data.yml
+cloud_ops_cloud_init_user: cloud-user
+cloud_ops_cloud_init_packages:
+  - python3
+  - firewalld
+cloud_ops_cloud_init_authorized_keys: []
+
